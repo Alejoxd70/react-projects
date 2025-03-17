@@ -5,7 +5,7 @@ import { useState } from 'react'
 import confetti from 'canvas-confetti'
 import { checkWinner, checkEndGame } from './logic/board.js'
 
-function App() {
+function App () {
   const [board, setBoard] = useState(() => {
     const boardFromStorage = window.localStorage.getItem('board')
     return boardFromStorage ? JSON.parse(boardFromStorage) : Array(9).fill(null)
