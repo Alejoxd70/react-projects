@@ -1,0 +1,24 @@
+{
+  "name": "04-movies-search-engine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "standard": "^17.1.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "just-debounce-it": "^3.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
