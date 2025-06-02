@@ -1,0 +1,1 @@
+import{jsx as _jsx,Fragment as _Fragment}from"react/jsx-runtime";export const MainLayout=({children})=>{return _jsx(_Fragment,{children:_jsx("div",{className:"dark:text-white max-w-6xl bg-gray-800 mx-auto p-6",children:children})})};
