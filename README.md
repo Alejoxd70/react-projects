@@ -1,3 +1,3 @@
 # React Projects
 
-Creating whatever I want 
+Creating whatever I want with midudev 🤪
