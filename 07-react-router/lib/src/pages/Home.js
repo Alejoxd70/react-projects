@@ -1,0 +1,1 @@
+import{jsx as _jsx,jsxs as _jsxs}from"react/jsx-runtime";import{Link}from"../components/Link";export const HomePage=()=>{return _jsxs("div",{children:[_jsx("h2",{children:"Home Page"}),_jsx("p",{children:"Welcome to our anime fan site!"}),_jsx(Link,{to:"/about",className:"text-blue-500 hover:underline",children:"Learn more about us"})]})};
