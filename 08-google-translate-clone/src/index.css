@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme {
+  /* Inspired by Yveltal pokemon */
+  --color-primary: #28272b;
+  --color-secondary: #af484d;
+  --color-accent: #6c6c6c;
+
+  --color-dark-bg: #101828 ;
+}
+:root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  color-scheme: light dark;
+  background-color: light-dark(white, var(--color-dark-bg));
+}
