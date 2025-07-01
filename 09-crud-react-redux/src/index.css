@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@theme {
+  /* Color palette inspired by Pokémon Mismagius */
+  --color-primary: #43314A;
+  --color-secondary: #6C4C94;
+  --color-accent: #B761AB;
+
+  --color-background: hsl(224 71% 4%);
+  --color-border-main: hsl(216 34% 17%);
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  max-width: 1200px;
+  height: auto;
+  border: 4px solid rgba(220, 22, 22, 0.164);
+  margin: 0 auto;
+
+  color-scheme: light dark;
+  background-color: light-dark(#ffffff, var(--color-background));
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
