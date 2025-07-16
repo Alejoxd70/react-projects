@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Color palette inspired by Empoleon  */
+  --color-primary: #173056;
+  --color-secondary: #CAC1A1;
+  --color-accent: #588FE5;
+
+  --color-background: #030711;
+  --color-border-main: #1d283a;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #030711;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+  max-width: 1200px;
+  margin: auto;
+  min-width: 320px;
+  min-height: 100vh;
+  border: red 1px solid;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* color: #030711; */
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
