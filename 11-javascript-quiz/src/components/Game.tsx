@@ -48,8 +48,8 @@ const Question = ({ question }: QuestionProps) => {
 export const Game = () => {
   const { questions, currentQuestionIndex, nextQuestion, previousQuestion } = useQuestionsStore()
   const currentQuestion = questions[currentQuestionIndex]
-  console.log(questions)
-  console.log(questions.length, currentQuestionIndex)
+  
+  
   return (
     <>
       <div className="mt-5">
