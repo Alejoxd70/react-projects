@@ -54,7 +54,7 @@ export const useQuestionsStore = create<QuestionsState>()(persist((set, get) => 
 
   previousQuestion: () => {
     const { currentQuestionIndex } = get()
-    if (currentQuestionIndex >= 0) {
+    if (currentQuestionIndex > 0) {
       set({ currentQuestionIndex: currentQuestionIndex - 1 })
     }
   },
