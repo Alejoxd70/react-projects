@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme {
+  /* font */
+  --font-family-mono: 'Intel One Mono', 'Courier New', Courier, monospace;
+
+  /* colors */
+  /* Pikachu color palette */
+  --color-primary: #f3cf3f;
+  --color-secondary: #261c14;
+  --color-accent: #a04e06;
+
+}
+
+:root {
+  font-family: var(--font-family-mono);
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
